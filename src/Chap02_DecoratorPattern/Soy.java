@@ -6,24 +6,17 @@ public class Soy extends CondimentDecorator{
         this.beverage=beverage;
     }
 
-    public String getSize(){
-        return beverage.getSize();
-    }
-
-    @Override
-    public void setSize(String size) {
-
-    }
-
     @Override
     public String getDescription() {
         return beverage.getDescription()+", 두유";
     }
-
+    public String getSize(){
+        return beverage.getSize();
+    }
     @Override
     public double cost() {
         double cost=beverage.cost();
-        String size=beverage.getSize();
+        String size=getSize();
         if(size=="Tall"){
             cost+=.10;
         }

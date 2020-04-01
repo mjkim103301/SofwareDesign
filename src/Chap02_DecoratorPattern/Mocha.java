@@ -9,11 +9,13 @@ public class Mocha extends CondimentDecorator {
     public String getDescription() {
         return beverage.getDescription()+", 모카";
     }
-
+    public String getSize(){
+        return beverage.getSize();
+    }
     @Override
     public double cost() {
         double cost=beverage.cost();
-        String size=beverage.getSize();
+        String size=getSize();
         if(size=="Tall"){
             cost+=.10;
         }
