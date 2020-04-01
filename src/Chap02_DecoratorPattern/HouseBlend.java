@@ -6,7 +6,7 @@ public class HouseBlend extends Beverage {
     public HouseBlend(String size){
 
         setSize(size);
-   
+
         description="하우스블렌드 커피 "+ getSize();
     }
 

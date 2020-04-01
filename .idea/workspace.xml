@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap02_DecoratorPattern/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap02_DecoratorPattern/Espresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap02_DecoratorPattern/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap02_DecoratorPattern/Espresso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chap02_DecoratorPattern/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap02_DecoratorPattern/HouseBlend.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,11 +102,6 @@
           <url>file://$PROJECT_DIR$/src/Chap02_ObserverPattern/WeatherStation.java</url>
           <line>4</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chap02_DecoratorPattern/Soy.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Chap02_DecoratorPattern/StarbuzzCoffee.java</url>
