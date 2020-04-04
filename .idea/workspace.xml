@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/Carlic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/ClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/Onion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/PizzaStore2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/PizzaTestDrive2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/RedPepper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/BasicSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/UpUpgradeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/UpgradeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/VolatileSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap04_FactoryPattern/NYPIzzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap04_FactoryPattern/NYPIzzaStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/META-INF/SoftwareDesign.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoPizzaIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/ChicagoPizzaIngredientFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYPIzzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYPIzzaStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYPizzaIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/PizzaIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/PizzaIngredientFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,6 +152,11 @@
           <url>file://$PROJECT_DIR$/src/Chap04_FactoryPattern/PizzaTestDrive.java</url>
           <line>4</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/PizzaTestDrive2.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Chap02_ObserverPattern/ForecastDisplay.java</url>
