@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/BasicSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/UpUpgradeSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/UpgradeSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/VolatileSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/BigType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/DocumentOutputDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/SmallType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/NYPizzaIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/AbstractFactoryPattern/NYPizzaIngredientFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoPizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/ChicagoPizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoStyleCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoStyleClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/ChicagoStyleClamPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoStylePepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/ChicagoStylePepperoniPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoStyleVeggiPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/ChicagoStyleVeggiPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYPIzzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/NYPIzzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYStyleCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/NYStyleCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYStyleClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/NYStyleClamPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYStylePepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/NYStylePepperoniPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYStyleVeggiPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/NYStyleVeggiPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/PizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/PizzaTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/PizzaTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap05_SingletonPattern/VolatileSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap05_SingletonPattern/VolatileSingleton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +65,11 @@
   </component>
   <component name="RunManager" selected="Application.PizzaTestDrive2">
     <configuration name="PizzaTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.PizzaTestDrive" />
+      <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.FactoryMethodPattern.PizzaTestDrive" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap04_FactoryPattern.*" />
+          <option name="PATTERN" value="Chap04_FactoryPattern.FactoryMethodPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,7 +165,7 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chap04_FactoryPattern/PizzaTestDrive.java</url>
+          <url>file://$PROJECT_DIR$/src/Chap04_FactoryPattern/FactoryMethodPattern/PizzaTestDrive.java</url>
           <line>4</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>

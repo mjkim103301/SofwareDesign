@@ -1,7 +1,7 @@
-package Chap04_FactoryPattern;
+package Chap04_FactoryPattern.FactoryMethodPattern;
 
-public class NYStylePepperoniPizza extends Pizza {
-    public NYStylePepperoniPizza(){
+public class NYStyleCheesePizza extends Pizza {
+    public NYStyleCheesePizza(){
         name="NY Style Sauce and Cheese Pizza";
         dough="Thin Crust Dough";
         sauce="Marinara Sauce";

@@ -1,4 +1,4 @@
-package Chap04_FactoryPattern;
+package Chap04_FactoryPattern.FactoryMethodPattern;
 
 public class PizzaTestDrive {
     public static void main(String []args){

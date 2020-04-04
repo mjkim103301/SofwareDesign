@@ -1,7 +1,5 @@
 package Chap04_FactoryPattern.AbstractFactoryPattern;
 
-import Chap04_FactoryPattern.NYStyleCheesePizza;
-
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override
     public Dough createDough() {
