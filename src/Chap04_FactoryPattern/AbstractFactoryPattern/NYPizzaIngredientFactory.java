@@ -1,5 +1,6 @@
-/*
-package Chap04_FactoryPattern;
+package Chap04_FactoryPattern.AbstractFactoryPattern;
+
+import Chap04_FactoryPattern.NYStyleCheesePizza;
 
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override
@@ -24,7 +25,7 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     }
 
     @Override
-    public Pepperni createPepperoni() {
+    public Pepperoni createPepperoni() {
         return new SlicedPepperoni();
     }
 
@@ -32,5 +33,11 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     public Clams createClam() {
         return new FreshClams();
     }
+    class ThinCrustDough extends NYPizzaIngredientFactory.Dough{}
+    class MarinaraSauce extends NYPizzaIngredientFactory.Sauce{}
+    class ReggianoCheese extends NYPizzaIngredientFactory.Cheese{}
+    class SlicedPepperoni extends NYPizzaIngredientFactory.Pepperoni{}
+    class FreshClams extends NYPizzaIngredientFactory.Clams{}
+
+
 }
-*/

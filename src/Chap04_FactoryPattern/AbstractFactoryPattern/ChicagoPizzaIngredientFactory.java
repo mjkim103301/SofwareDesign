@@ -1,4 +1,4 @@
-/*package Chap04_FactoryPattern;
+package Chap04_FactoryPattern.AbstractFactoryPattern;
 
 public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override
@@ -8,12 +8,12 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Sauce createSauce() {
-        return PlumTomatoSauce();
+        return new PlumTomatoSauce();
     }
 
     @Override
     public Cheese createCheese() {
-        return MozzarellaCheese();
+        return new MozzarellaCheese();
     }
 
     @Override
@@ -23,7 +23,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
     }
 
     @Override
-    public Pepperni createPepperoni() {
+    public Pepperoni createPepperoni() {
         return new SlicedPepperoni();
     }
 
@@ -31,4 +31,9 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
     public Clams createClam() {
         return new FrozenClams();
     }
-}*/
+    class ThickCrustDough extends ChicagoPizzaIngredientFactory.Dough{}
+    class PlumTomatoSauce extends ChicagoPizzaIngredientFactory.Sauce{}
+    class MozzarellaCheese extends ChicagoPizzaIngredientFactory.Cheese{}
+    class SlicedPepperoni extends ChicagoPizzaIngredientFactory.Pepperoni{}
+    class FrozenClams extends ChicagoPizzaIngredientFactory.Clams{}
+}
