@@ -1,4 +1,4 @@
-package Chap02_DecoratorPattern;
+package Chap03_DecoratorPattern;
 
 public class Espresso extends Beverage {
 

@@ -1,15 +1,13 @@
-package Chap02_DecoratorPattern;
+package Chap03_DecoratorPattern;
 
-public class Whip  extends CondimentDecorator {
+public class Mocha extends CondimentDecorator {
     Beverage beverage;
-
-    public Whip(Beverage beverage) {
-        this.beverage = beverage;
+    public Mocha (Beverage beverage){
+        this.beverage=beverage;
     }
-
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ", 휩";
+        return beverage.getDescription()+", 모카";
     }
     public String getSize(){
         return beverage.getSize();

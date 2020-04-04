@@ -1,14 +1,15 @@
-package Chap02_DecoratorPattern;
+package Chap03_DecoratorPattern;
 
-public class Soy extends CondimentDecorator{
+public class Whip  extends CondimentDecorator {
     Beverage beverage;
-    public Soy (Beverage beverage){
-        this.beverage=beverage;
+
+    public Whip(Beverage beverage) {
+        this.beverage = beverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription()+", 두유";
+        return beverage.getDescription() + ", 휩";
     }
     public String getSize(){
         return beverage.getSize();

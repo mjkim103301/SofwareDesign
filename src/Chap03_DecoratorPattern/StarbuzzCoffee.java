@@ -1,4 +1,4 @@
-package Chap02_DecoratorPattern;
+package Chap03_DecoratorPattern;
 
 public class StarbuzzCoffee {
     public static void main(String args[]){

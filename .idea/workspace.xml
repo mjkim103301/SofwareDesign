@@ -37,11 +37,11 @@
   </component>
   <component name="RunManager" selected="Application.StarbuzzCoffee">
     <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap02_DecoratorPattern.StarbuzzCoffee" />
+      <option name="MAIN_CLASS_NAME" value="Chap03_DecoratorPattern.StarbuzzCoffee" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap02_DecoratorPattern.*" />
+          <option name="PATTERN" value="Chap03_DecoratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
