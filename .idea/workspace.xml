@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoStyleClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoStylePepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/ChicagoStyleVeggiPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYPIzzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYStyleClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYStylePepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/NYStyleVeggiPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/PizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/PizzaTestDrive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap02_DecoratorPattern/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap02_DecoratorPattern/HouseBlend.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +38,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Chap04_FactoryPattern" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -35,7 +55,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StarbuzzCoffee">
+  <component name="RunManager" selected="Application.PizzaTestDrive">
+    <configuration name="PizzaTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.PizzaTestDrive" />
+      <module name="SoftwareDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chap04_FactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chap03_DecoratorPattern.StarbuzzCoffee" />
       <module name="SoftwareDesign" />
@@ -64,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaTestDrive" />
         <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.WeatherStation" />
       </list>
@@ -104,7 +138,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chap02_DecoratorPattern/StarbuzzCoffee.java</url>
+          <url>file://$PROJECT_DIR$/src/Chap03_DecoratorPattern/StarbuzzCoffee.java</url>
           <line>8</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
