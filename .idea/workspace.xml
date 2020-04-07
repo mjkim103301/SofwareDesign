@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/BigType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/BigType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/Display.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/Document.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/DocumentOutputDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/DocumentOutputDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/SmallType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap04_FactoryPattern/DocumentOutputApp/SmallType.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

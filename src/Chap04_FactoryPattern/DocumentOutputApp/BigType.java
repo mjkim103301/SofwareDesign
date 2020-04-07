@@ -8,17 +8,13 @@ public class BigType extends Document {
 
     @Override
     public void makeDisplay(Deque<String> queue) {
-        output= (String) queue.peek();
-        output.toUpperCase();
-        queue.poll();
+        output= (String) queue.poll();
         System.out.println("Option 1");
-        System.out.println("----Title: "+output+"-----");
+        System.out.println("----Title: "+output.toUpperCase()+"-----");
+        int sectionNum=1;
         while(!queue.isEmpty()){
-            int sectionNum=1;
-            output=(String )queue.peek();
-            output.toUpperCase();
-            queue.poll();
-            System.out.println("Section "+sectionNum+". ---"+output+"---");
+            output=(String )queue.poll();
+            System.out.println("Section "+sectionNum+". ---"+output.toUpperCase()+"---");
             System.out.println(queue.poll());
             sectionNum++;
         }

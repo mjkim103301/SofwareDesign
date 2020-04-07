@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DocumentOutputDriver {
     public static void main(String []args){
         Deque<String> queue = new ArrayDeque<String>();
-        Document document = null;
+        Document document;
         String title;
         String heading,text, type;
         System.out.println("---> Enter title: ");
@@ -14,7 +14,7 @@ public class DocumentOutputDriver {
 
         title=scanner.nextLine();
         queue.add(title);
-       // document.createDocument(title);
+
         while(true){
             System.out.println("---> Enter Heading or 'done': ");
 
@@ -24,7 +24,6 @@ public class DocumentOutputDriver {
             System.out.println("---> Enter text: ");
             text=scanner.nextLine();
             queue.add(text);
-            //document.createDocument(heading, text);
 
         }
         System.out.println("Enter the style you want displayed:");
