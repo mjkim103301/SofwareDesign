@@ -11,14 +11,16 @@ public class BigType extends Document {
         output= (String) queue.peek();
         output.toUpperCase();
         queue.poll();
+        System.out.println("Option 1");
         System.out.println("----Title: "+output+"-----");
         while(!queue.isEmpty()){
             int sectionNum=1;
             output=(String )queue.peek();
             output.toUpperCase();
             queue.poll();
-            System.out.println("Section "+(sectionNum++)+". ---"+output+"---");
+            System.out.println("Section "+sectionNum+". ---"+output+"---");
             System.out.println(queue.poll());
+            sectionNum++;
         }
 
     }
