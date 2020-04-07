@@ -1,8 +1,24 @@
 package Chap04_FactoryPattern.DocumentOutputApp;
 
-public class BigType implements Display {
+import java.util.Queue;
+
+public class BigType extends Document {
+    String output;
+
     @Override
-    public void display() {
+    public void makeDisplay() {
+        output= (String) queue.peek();
+        output.toUpperCase();
+        queue.poll();
+        System.out.println("----Title: "+output+"-----");
+        while(!queue.isEmpty()){
+            int sectionNum=1;
+            output=(String )queue.peek();
+            output.toUpperCase();
+            queue.poll();
+            System.out.println("Section "+(sectionNum++)+". ---"+output+"---");
+            System.out.println(queue.poll());
+        }
 
     }
 }
