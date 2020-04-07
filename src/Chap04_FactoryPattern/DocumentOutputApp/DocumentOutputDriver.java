@@ -11,27 +11,30 @@ public class DocumentOutputDriver {
         System.out.println("---> Enter title: ");
 
         Scanner scanner=new Scanner(System.in);
-        queue.offer(scanner.nextLine());
-       // title=scanner.nextLine();
-        document.createDocument(title);
+
+        title=scanner.nextLine();
+        queue.add(title);
+       // document.createDocument(title);
         while(true){
             System.out.println("---> Enter Heading or 'done': ");
 
             heading=scanner.nextLine();
             if(heading.equals("done"))break;
+            queue.add(heading);
             System.out.println("---> Enter text: ");
             text=scanner.nextLine();
-            document.createDocument(heading, text);
+            queue.add(text);
+            //document.createDocument(heading, text);
 
         }
         System.out.println("Enter the style you want displayed:");
         type=scanner.next();
         if(type.equals("big")){
             document=new BigType();
-            document.makeDisplay();
+            document.makeDisplay(queue);
         }else if(type.equals("small")){
             document=new SmallType();
-            document.makeDisplay();
+            document.makeDisplay(queue);
         }
     }
 }

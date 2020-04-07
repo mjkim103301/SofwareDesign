@@ -1,12 +1,13 @@
 package Chap04_FactoryPattern.DocumentOutputApp;
 
+import java.util.Deque;
 import java.util.Queue;
 
 public class BigType extends Document {
     String output;
 
     @Override
-    public void makeDisplay() {
+    public void makeDisplay(Deque<String> queue) {
         output= (String) queue.peek();
         output.toUpperCase();
         queue.poll();
