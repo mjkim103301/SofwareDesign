@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/GarageDoorOpenCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
