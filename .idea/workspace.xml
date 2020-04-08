@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="" />
+    <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControl.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DocumentOutputDriver">
+  <component name="RunManager" selected="Application.RemoteControler">
     <configuration name="DocumentOutputDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.DocumentOutputApp.DocumentOutputDriver" />
       <module name="SoftwareDesign" />
@@ -81,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoteControler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.RemoteControler" />
+      <module name="SoftwareDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chap06_CommandPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chap03_DecoratorPattern.StarbuzzCoffee" />
       <module name="SoftwareDesign" />
@@ -94,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap02_ObserverPattern.WeatherStation" />
-      <module name="SoftwareDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chap02_ObserverPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteControler" />
         <item itemvalue="Application.DocumentOutputDriver" />
         <item itemvalue="Application.PizzaTestDrive2" />
         <item itemvalue="Application.PizzaTestDrive" />
         <item itemvalue="Application.StarbuzzCoffee" />
-        <item itemvalue="Application.WeatherStation" />
       </list>
     </recent_temporary>
   </component>
