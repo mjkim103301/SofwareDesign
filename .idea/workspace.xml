@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControler/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/GarageDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControler/GarageDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/GarageDoorOpenCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControler/GarageDoorOpenCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControler/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControler/LightOnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControler/RemoteControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/SimpleRemoteControler/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/Command2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/Light2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOnCommand2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/StereoOffWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/StereoOnWithCDCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/GarageDoor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/GarageDoorOpenCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/LightOnCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteControler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/SimpleRemoteControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +40,15 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
       <recent name="Chap04_FactoryPattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chap06_CommandPattern" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -50,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoteControler">
+  <component name="RunManager" selected="Application.RemoteLoader">
     <configuration name="DocumentOutputDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.DocumentOutputApp.DocumentOutputDriver" />
       <module name="SoftwareDesign" />
@@ -103,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap03_DecoratorPattern.StarbuzzCoffee" />
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.RemoteLoader" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap03_DecoratorPattern.*" />
+          <option name="PATTERN" value="Chap06_CommandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.RemoteControler" />
         <item itemvalue="Application.DocumentOutputDriver" />
         <item itemvalue="Application.PizzaTestDrive2" />
         <item itemvalue="Application.PizzaTestDrive" />
-        <item itemvalue="Application.StarbuzzCoffee" />
       </list>
     </recent_temporary>
   </component>
