@@ -3,6 +3,7 @@ package Chap06_CommandPattern;
 public class RemoteControl {
     Command2[] onCommands;
     Command2[] offCommands;
+    Command2 undoCommand;
     public RemoteControl(){
         onCommands=new Command2[7];
         offCommands=new Command2[7];
@@ -12,6 +13,7 @@ public class RemoteControl {
             onCommands[i]=noCommand;
             offCommands[i]=noCommand;
         }
+        undoCommand =noCommand;
     }
 
     public void setCommand(int slot, Command2 onCommand, Command2 offCommand){
@@ -20,11 +22,15 @@ public class RemoteControl {
     }
     public void onButtonWasPushed(int slot){
         onCommands[slot].execute();
+        undoCommand=onCommands[slot];
     }
     public void offButtonWasPushed(int slot){
         offCommands[slot].execute();
+        undoCommand=offCommands[slot];
     }
-
+    public void undoButtonWasPushed(){
+        undoCommand.undo();
+    }
     public String toString(){
         StringBuffer stringBuff=new StringBuffer();
         stringBuff.append("\n----- Remote Control-----\n");

@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/DuckTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/MallarDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/TurkeyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/WildTurkey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/NoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/NoCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteControl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/Command2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/Command2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOnCommand2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOnCommand2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/NoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/NoCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/StereoOffWithCDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/StereoOffWithCDCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/StereoOnWithCDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/StereoOnWithCDCommand.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

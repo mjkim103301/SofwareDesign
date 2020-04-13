@@ -9,4 +9,9 @@ public class StereoOffWithCDCommand implements Command2{
     public void execute(){
         stereo.off();
     }
+
+    @Override
+    public void undo() {
+        stereo.on();
+    }
 }

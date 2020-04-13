@@ -5,4 +5,9 @@ public class NoCommand implements Command2 {
     @Override
     public void execute() { }
 
+    @Override
+    public void undo() {
+
+    }
+
 }
