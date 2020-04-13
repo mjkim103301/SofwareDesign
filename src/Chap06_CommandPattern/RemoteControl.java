@@ -22,7 +22,7 @@ public class RemoteControl {
         onCommands[slot].execute();
     }
     public void offButtonWasPushed(int slot){
-        onCommands[slot].execute();
+        offCommands[slot].execute();
     }
 
     public String toString(){

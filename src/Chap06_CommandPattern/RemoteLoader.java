@@ -1,7 +1,5 @@
 package Chap06_CommandPattern;
 
-import Chap06_CommandPattern.SimpleRemoteControler.LightOnCommand;
-
 public class RemoteLoader {
     public static void main(String[]args){
         RemoteControl remoteControl=new RemoteControl();
