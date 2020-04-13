@@ -1,4 +1,4 @@
-package Chap06_CommandPattern;
+package Chap06_CommandPattern.SimpleRemoteControler;
 
 public class LightOnCommand implements Command {
     Light light;

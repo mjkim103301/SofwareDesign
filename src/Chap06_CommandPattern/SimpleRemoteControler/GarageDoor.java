@@ -1,4 +1,4 @@
-package Chap06_CommandPattern;
+package Chap06_CommandPattern.SimpleRemoteControler;
 
 public class GarageDoor {
     void open(){
