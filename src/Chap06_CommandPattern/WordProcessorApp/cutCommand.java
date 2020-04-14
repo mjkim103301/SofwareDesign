@@ -1,10 +1,9 @@
 package Chap06_CommandPattern.WordProcessorApp;
 
-import java.util.Scanner;
 import java.util.Stack;
 
 public class cutCommand implements AppCommand {
-    private static String target;
+
     Cut cut;
 
     cutCommand(Cut cut){
@@ -14,14 +13,17 @@ public class cutCommand implements AppCommand {
     public void execute(Stack<String> stack) {
         cut.setStart();
         cut.setCutNum();
-        target=cut.start(stack);
-
+        cut.start(stack);
+        System.out.println("stack size: "+stack.size());
 
     }
 
     @Override
-    public void undo() {
+    public void undo(Stack<String> stack) {
 
+        stack.pop();
+        String temp=stack.peek();
+        System.out.println(temp);
     }
 
 }

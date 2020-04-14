@@ -4,12 +4,12 @@ import java.util.Stack;
 
 public class NoCommand implements AppCommand {
     @Override
-    public void execute(Stack stack) {
+    public void execute(Stack<String> stack) {
 
     }
 
     @Override
-    public void undo() {
+    public void undo(Stack<String> stack) {
 
     }
 

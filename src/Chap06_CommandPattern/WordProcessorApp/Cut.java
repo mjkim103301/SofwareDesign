@@ -20,11 +20,12 @@ public class Cut {
         scan.nextLine();
         System.out.println("You chose cut "+cutNum);
     }
-    String start(Stack<String> stack){
+   void start(Stack<String> stack){
         String front=stack.peek();
         String temp=front.substring(0,startIndex);
         temp+=front.substring(startIndex+cutNum);
+        stack.push(temp);
         System.out.println(temp);
-        return temp;
+
     }
 }

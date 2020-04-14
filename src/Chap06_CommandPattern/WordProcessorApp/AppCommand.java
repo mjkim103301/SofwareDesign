@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public interface AppCommand {
 
-    public void execute(Stack<String> stack);
-    public void undo();
+     void execute(Stack<String> stack);
+     void undo(Stack<String> stack);
 
 }

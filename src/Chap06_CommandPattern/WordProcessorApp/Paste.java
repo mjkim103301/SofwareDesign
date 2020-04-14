@@ -20,7 +20,7 @@ public class Paste {
         scan.reset();
         insert=scan.nextLine();
     }
-    String start(Stack<String> stack){
+    void start(Stack<String> stack){
         String temp="";
         if(stack.empty()){
             temp+=insert;
@@ -33,6 +33,6 @@ public class Paste {
             temp+=front.substring(startIndex);
         }
         System.out.println(temp);
-        return temp;
+        stack.push(temp);
     }
 }

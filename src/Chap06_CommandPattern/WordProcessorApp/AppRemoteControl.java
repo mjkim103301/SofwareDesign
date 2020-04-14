@@ -13,7 +13,7 @@ public class AppRemoteControl {
             clickedCommands[i]=noCommand;
         }
         undoCommand=noCommand;
-
+        stack.push("");
     }
     public void setCommand(int slot, AppCommand clickedCommand){
         clickedCommands[slot]=clickedCommand;
@@ -25,6 +25,7 @@ public class AppRemoteControl {
         undoCommand=clickedCommands[slot];
     }
     public void undoButtonWasClicked(){
-        undoCommand.undo();
+        undoCommand.undo(stack);
+
     }
 }

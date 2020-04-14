@@ -3,7 +3,7 @@ package Chap06_CommandPattern.WordProcessorApp;
 import java.util.Stack;
 
 public class pasteCommand implements AppCommand {
-    private static String target="";
+
     Paste paste;
 
     pasteCommand(Paste paste){
@@ -13,13 +13,16 @@ public class pasteCommand implements AppCommand {
     public void execute(Stack stack) {
         paste.setStart();
         paste.setInsertString();
-        target=paste.start(stack);
-        stack.push(target);
+        paste.start(stack);
+
+        System.out.println("stack size: "+stack.size());
     }
 
     @Override
-    public void undo() {
-
+    public void undo(Stack<String> stack) {
+        stack.pop();
+        String temp=stack.peek();
+        System.out.println(temp);
     }
 
 
