@@ -1,6 +1,7 @@
 package Chap06_CommandPattern.WordProcessorApp;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class cutCommand implements AppCommand {
     private static String target;
@@ -10,10 +11,10 @@ public class cutCommand implements AppCommand {
         this.cut=cut;
     }
     @Override
-    public void execute() {
+    public void execute(Stack<String> stack) {
         cut.setStart();
         cut.setCutNum();
-        target=cut.start(target);
+        target=cut.start(stack);
 
 
     }
@@ -23,13 +24,4 @@ public class cutCommand implements AppCommand {
 
     }
 
-    @Override
-    public void setString() {//이전 단계에서 수정한거 세팅
-      target=pasteCommand.getString();
-    }
-
-
-    public static String getString() {
-        return target;
-    }
 }
