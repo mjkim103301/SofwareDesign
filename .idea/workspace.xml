@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/AdapterPattern/DuckAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/AdapterPattern/DuckTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/AdapterPattern/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/DuckTestDrive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/MallarDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/AdapterPattern/MallarDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Turkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/AdapterPattern/Turkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/TurkeyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/AdapterPattern/TurkeyAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/WildTurkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/AdapterPattern/WildTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Amplifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/CdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTeaterTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PopcornPopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,15 +29,16 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
-      <recent name="Chap04_FactoryPattern" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Chap06_CommandPattern" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Chap07_Adapter_Pacade_Pattern" />
+      <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
+      <recent name="Chap04_FactoryPattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -56,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuckTestDrive">
+  <component name="RunManager" selected="Application.HomeTeaterTestDrive">
     <configuration name="DocumentOutputDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.DocumentOutputApp.DocumentOutputDriver" />
       <module name="SoftwareDesign" />
@@ -83,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaTestDrive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.AbstractFactoryPattern.PizzaTestDrive2" />
+    <configuration name="HomeTeaterTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap07_Adapter_Pacade_Pattern.HomeTeaterTestDrive" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap04_FactoryPattern.AbstractFactoryPattern.*" />
+          <option name="PATTERN" value="Chap07_Adapter_Pacade_Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeTeaterTestDrive" />
         <item itemvalue="Application.DuckTestDrive" />
         <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.RemoteControler" />
         <item itemvalue="Application.DocumentOutputDriver" />
-        <item itemvalue="Application.PizzaTestDrive2" />
       </list>
     </recent_temporary>
   </component>
