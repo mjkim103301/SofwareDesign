@@ -16,6 +16,7 @@ public class AppRemoteControl {
 
     }
     public void buttonWasCLicked(int slot){
+        clickedCommands[slot].setString();
         clickedCommands[slot].execute();
         undoCommand=clickedCommands[slot];
     }

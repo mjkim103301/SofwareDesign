@@ -9,8 +9,8 @@ public class AppLoader {
         AppRemoteControl remoteControl=new AppRemoteControl();
         Cut cut=new Cut();
         Paste paste=new Paste();
-        cutCommand cutCommand=new cutCommand();
-        pasteCommand pasteCommand=new pasteCommand();
+        cutCommand cutCommand=new cutCommand(cut);
+        pasteCommand pasteCommand=new pasteCommand(paste);
         while(true){
             System.out.println("pick number from one of the following:");
             System.out.println("1. undo");

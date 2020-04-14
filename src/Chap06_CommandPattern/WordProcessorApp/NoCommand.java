@@ -10,4 +10,9 @@ public class NoCommand implements AppCommand {
     public void undo() {
 
     }
+
+    @Override
+    public void setString() {
+
+    }
 }

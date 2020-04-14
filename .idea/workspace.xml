@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppRemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/Cut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/Paste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/cutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/pasteCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/Command2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/Light2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/LightOffCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/LightOnCommand2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/NoCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/RemoteLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/Stereo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/StereoOffWithCDCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap06_CommandPattern/StereoOnWithCDCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/Amplifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/CdPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/HomeTeaterTestDrive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/PopcornPopper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/Projector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/Screen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppRemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/AppRemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/Cut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/Cut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/NoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/NoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/Paste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/Paste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/cutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/cutCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/pasteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/WordProcessorApp/pasteCommand.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +72,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HomeTeaterTestDrive">
-    <configuration name="DocumentOutputDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.DocumentOutputApp.DocumentOutputDriver" />
+  <component name="RunManager" selected="Application.AppLoader">
+    <configuration name="AppLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.WordProcessorApp.AppLoader" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap04_FactoryPattern.DocumentOutputApp.*" />
+          <option name="PATTERN" value="Chap06_CommandPattern.WordProcessorApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppLoader" />
         <item itemvalue="Application.HomeTeaterTestDrive" />
         <item itemvalue="Application.DuckTestDrive" />
         <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.RemoteControler" />
-        <item itemvalue="Application.DocumentOutputDriver" />
       </list>
     </recent_temporary>
   </component>
