@@ -1,4 +1,4 @@
-package Chap06_CommandPattern;
+package Chap06_CommandPattern.UpgradeRemoteColtroler;
 
 public class RemoteLoader {
     public static void main(String[]args){

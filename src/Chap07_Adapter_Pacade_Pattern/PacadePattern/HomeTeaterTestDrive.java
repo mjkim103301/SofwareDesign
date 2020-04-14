@@ -1,4 +1,4 @@
-package Chap07_Adapter_Pacade_Pattern;
+package Chap07_Adapter_Pacade_Pattern.PacadePattern;
 
 public class HomeTeaterTestDrive {
     public static void main(String [] args){

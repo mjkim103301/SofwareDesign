@@ -1,4 +1,4 @@
-package Chap06_CommandPattern;
+package Chap06_CommandPattern.UpgradeRemoteColtroler;
 
 public class NoCommand implements Command2 {
    // Command2 noCommand=new NoCommand();

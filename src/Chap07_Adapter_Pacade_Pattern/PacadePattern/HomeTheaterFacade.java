@@ -1,4 +1,4 @@
-package Chap07_Adapter_Pacade_Pattern;
+package Chap07_Adapter_Pacade_Pattern.PacadePattern;
 
 
 
@@ -18,7 +18,7 @@ public class HomeTheaterFacade {
         this.popper=popper;
     }
     public void watchMovie(String movie){
-        System.out.println("Get ready to watch a movie..");
+        System.out.println("Get ready to watch a movie.."+movie);
         popper.on();
         popper.pop();
         screen.down();

@@ -1,4 +1,4 @@
-package Chap06_CommandPattern;
+package Chap06_CommandPattern.UpgradeRemoteColtroler;
 
 public class LightOffCommand implements Command2 {
     Light2 light;

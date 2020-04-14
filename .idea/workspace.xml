@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Amplifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/CdPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTeaterTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PopcornPopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/Command2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/Command2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/Light2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/Light2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/LightOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/LightOnCommand2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/LightOnCommand2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/NoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/NoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/RemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/RemoteLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/Stereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/Stereo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/StereoOffWithCDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/StereoOffWithCDCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap06_CommandPattern/StereoOnWithCDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/StereoOnWithCDCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Amplifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PacadePattern/Amplifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/CdPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PacadePattern/CdPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTeaterTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PacadePattern/HomeTeaterTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/HomeTheaterFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PacadePattern/HomeTheaterFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PopcornPopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PacadePattern/PopcornPopper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Projector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PacadePattern/Projector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap07_Adapter_Pacade_Pattern/PacadePattern/Screen.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,11 +93,11 @@
       </method>
     </configuration>
     <configuration name="HomeTeaterTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap07_Adapter_Pacade_Pattern.HomeTeaterTestDrive" />
+      <option name="MAIN_CLASS_NAME" value="Chap07_Adapter_Pacade_Pattern.PacadePattern.HomeTeaterTestDrive" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap07_Adapter_Pacade_Pattern.*" />
+          <option name="PATTERN" value="Chap07_Adapter_Pacade_Pattern.PacadePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.RemoteLoader" />
+      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.UpgradeRemoteColtroler.RemoteLoader" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap06_CommandPattern.*" />
+          <option name="PATTERN" value="Chap06_CommandPattern.UpgradeRemoteColtroler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,7 +191,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chap06_CommandPattern/RemoteLoader.java</url>
+          <url>file://$PROJECT_DIR$/src/Chap06_CommandPattern/UpgradeRemoteColtroler/RemoteLoader.java</url>
           <line>4</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
