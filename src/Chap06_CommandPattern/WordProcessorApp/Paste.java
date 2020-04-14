@@ -18,7 +18,10 @@ public class Paste {
         insert=scan.nextLine();
     }
     String start(String target){
-        String temp=target.substring(0,startIndex);
+        String temp="";
+        if(startIndex>0){
+            temp=target.substring(0,startIndex);
+        }
         temp+=insert;
         temp+=target.substring(startIndex);
         return temp;
