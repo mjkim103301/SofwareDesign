@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/CaffeineBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/CaffeineBeverageMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Tea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +23,16 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Chap06_CommandPattern" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Chap07_Adapter_Pacade_Pattern" />
       <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
       <recent name="Chap04_FactoryPattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chap06_CommandPattern" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
     </key>
   </component>
   <component name="RunDashboard">
