@@ -1,4 +1,4 @@
-package Chap08_TemplateMethodPattern;
+package Chap08_TemplateMethodPattern.Basic;
 
 public abstract class CaffeineBeverage {
     final void prepareRecipe(){

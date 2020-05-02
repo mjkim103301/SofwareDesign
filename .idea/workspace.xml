@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="" />
+    <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Hook/BeverageTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Hook/CaffeineBeverageWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Hook/CoffeeWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Sort/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Sort/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Sort/DuckSortTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/CaffeineBeverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/CaffeineBeverageMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/Tea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/CaffeineBeverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Basic/CaffeineBeverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/CaffeineBeverageMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Basic/CaffeineBeverageMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Basic/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Basic/Tea.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -21,16 +39,17 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Chap07_Adapter_Pacade_Pattern" />
-      <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
-      <recent name="Chap04_FactoryPattern" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Chap06_CommandPattern" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Chap08_TemplateMethodPattern.Sort" />
+      <recent name="Chap07_Adapter_Pacade_Pattern" />
+      <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
+      <recent name="Chap04_FactoryPattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -45,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CaffeineBeverageMaker">
+  <component name="RunManager" selected="Application.DuckSortTestDrive">
     <configuration name="AppLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.WordProcessorApp.AppLoader" />
       <module name="SoftwareDesign" />
@@ -59,12 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BeverageTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.Hook.BeverageTestDrive" />
+      <module name="SoftwareDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chap08_TemplateMethodPattern.Hook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CaffeineBeverageMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.CaffeineBeverageMaker" />
+      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.Basic.CaffeineBeverageMaker" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap08_TemplateMethodPattern.*" />
+          <option name="PATTERN" value="Chap08_TemplateMethodPattern.Basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap07_Adapter_Pacade_Pattern.AdapterPattern.DuckTestDrive" />
+    <configuration name="DuckSortTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.Sort.DuckSortTestDrive" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap07_Adapter_Pacade_Pattern.AdapterPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTeaterTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap07_Adapter_Pacade_Pattern.PacadePattern.HomeTeaterTestDrive" />
-      <module name="SoftwareDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chap07_Adapter_Pacade_Pattern.PacadePattern.*" />
+          <option name="PATTERN" value="Chap08_TemplateMethodPattern.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuckSortTestDrive" />
+        <item itemvalue="Application.BeverageTestDrive" />
         <item itemvalue="Application.CaffeineBeverageMaker" />
         <item itemvalue="Application.AppLoader" />
         <item itemvalue="Application.RemoteLoader" />
-        <item itemvalue="Application.HomeTeaterTestDrive" />
-        <item itemvalue="Application.DuckTestDrive" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package Chap08_TemplateMethodPattern;
+package Chap08_TemplateMethodPattern.Basic;
 
 public class Tea extends CaffeineBeverage {
     @Override
