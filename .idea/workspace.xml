@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Hook/BeverageTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Hook/CaffeineBeverageWithHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Hook/CoffeeWithHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/MyFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Sort/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Sort/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Sort/DuckSortTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/MyApplet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/CaffeineBeverage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/CaffeineBeverageMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/Coffee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/Tea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/CaffeineBeverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Basic/CaffeineBeverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/CaffeineBeverageMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Basic/CaffeineBeverageMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Basic/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/Basic/Tea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap08_TemplateMethodPattern/MyFrame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,16 +51,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuckSortTestDrive">
-    <configuration name="AppLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.WordProcessorApp.AppLoader" />
+  <component name="RunManager" selected="Applet.MyApplet">
+    <configuration name="MyApplet" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.MyApplet" />
       <module name="SoftwareDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chap06_CommandPattern.WordProcessorApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.UpgradeRemoteColtroler.RemoteLoader" />
+    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.MyFrame" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap06_CommandPattern.UpgradeRemoteColtroler.*" />
+          <option name="PATTERN" value="Chap08_TemplateMethodPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.MyApplet" />
+        <item itemvalue="Application.MyFrame" />
         <item itemvalue="Application.DuckSortTestDrive" />
         <item itemvalue="Application.BeverageTestDrive" />
         <item itemvalue="Application.CaffeineBeverageMaker" />
-        <item itemvalue="Application.AppLoader" />
-        <item itemvalue="Application.RemoteLoader" />
       </list>
     </recent_temporary>
   </component>
