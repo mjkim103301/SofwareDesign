@@ -1,5 +1,4 @@
-package Chap09_Iterator_Composite_Pattern;
-import java.lang.reflect.Array;
+package Chap09_Iterator_Composite_Pattern.Iterator;
 import java.util.ArrayList;
 import java.util.Iterator;
 public class Waitress {

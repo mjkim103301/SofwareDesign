@@ -1,6 +1,5 @@
-package Chap09_Iterator_Composite_Pattern;
+package Chap09_Iterator_Composite_Pattern.Iterator;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 public class PancakeHouseMenuIterator implements Iterator {

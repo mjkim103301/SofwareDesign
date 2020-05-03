@@ -1,4 +1,4 @@
-package Chap09_Iterator_Composite_Pattern;
+package Chap09_Iterator_Composite_Pattern.Iterator;
 import java.util.Iterator;
 public class DinerMenuIterator implements Iterator {
     MenuItem[] items;
