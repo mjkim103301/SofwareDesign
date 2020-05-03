@@ -23,4 +23,6 @@ public class MenuItem {
     public boolean isVegetarian(){
         return vegetarian;
     }
+
+
 }
