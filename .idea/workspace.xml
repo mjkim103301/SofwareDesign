@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Composite/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Composite/MenuComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Composite/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Composite/MenuTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Composite/Waitress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/AlternatingDinerMenuIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/AlternatingDinerMenuIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/CafeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/CafeMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/DinerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/DinerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/DinerMenuIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/DinerMenuIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/MenuTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/MenuTestDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/PancakeHouseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/PancakeHouseMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/PancakeHouseMenuIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/PancakeHouseMenuIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/Waitress.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,6 +177,11 @@
           <url>file://$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator/MenuTestDrive.java</url>
           <line>6</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Composite/MenuTestDrive.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Chap02_ObserverPattern/ForecastDisplay.java</url>
