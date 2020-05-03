@@ -1,18 +1,30 @@
 package Chap09_Iterator_Composite_Pattern;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Iterator;
 public class Waitress {
     //PancakeHouseMenu pancakeHouseMenu;
     //DinerMenu dinerMenu;
-    Menu pancakeHouseMenu;
-    Menu dinerMenu;
-    Menu cafeMenu;
-    public Waitress(Menu pancakeHouseMenu, Menu dinerMenu, Menu cafeMenu){
-        this.pancakeHouseMenu=pancakeHouseMenu;
-        this.dinerMenu=dinerMenu;
-        this.cafeMenu=cafeMenu;
+    //Menu pancakeHouseMenu;
+    //Menu dinerMenu;
+    //Menu cafeMenu;
+    ArrayList menus;
+//    public Waitress(Menu pancakeHouseMenu, Menu dinerMenu, Menu cafeMenu){
+//        this.pancakeHouseMenu=pancakeHouseMenu;
+//        this.dinerMenu=dinerMenu;
+//        this.cafeMenu=cafeMenu;
+//    }
+    public Waitress(ArrayList menus){
+        this.menus=menus;
     }
     public void printMenu(){
-        Iterator pancakeIterator=pancakeHouseMenu.createIterator();
+        Iterator menuIterator=menus.iterator();
+        while(menuIterator.hasNext()){
+            Menu menu=(Menu)menuIterator.next();
+            printMenu(menu.createIterator());
+            System.out.println();
+        }
+       /* Iterator pancakeIterator=pancakeHouseMenu.createIterator();
         Iterator dinerIterator=dinerMenu.createIterator();
         Iterator cafeIterator=cafeMenu.createIterator();
 
@@ -23,7 +35,8 @@ public class Waitress {
         printMenu(dinerIterator);
 
         System.out.println("\n 저녁 메뉴");
-        printMenu(cafeIterator);
+        printMenu(cafeIterator);*/
+
     }
     private void printMenu(Iterator iterator){
         while(iterator.hasNext()){

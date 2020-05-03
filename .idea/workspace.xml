@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/CafeMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/DinerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/DinerMenuIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/MenuTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/PancakeHouseMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/PancakeHouseMenuIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Waitress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/MyApplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/MyApplet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap08_TemplateMethodPattern/MyFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/AlternatingDinerMenuIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/Waitress.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
