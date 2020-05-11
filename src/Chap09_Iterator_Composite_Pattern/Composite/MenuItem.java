@@ -1,5 +1,7 @@
 package Chap09_Iterator_Composite_Pattern.Composite;
 
+import java.util.Iterator;
+
 public class MenuItem extends MenuComponent {
     String name;
     String description;
@@ -31,5 +33,8 @@ public class MenuItem extends MenuComponent {
         }
         System.out.println(", "+getPrice());
         System.out.println("  -- "+getDescription());
+    }
+    public Iterator createIterator(){
+        return new NullIterator();
     }
 }
