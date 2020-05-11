@@ -46,6 +46,11 @@ public class DuckSimulator {
         System.out.println("\n Duck Simulator: Mallard FLock Simulation");
         simulate(flockOfMallards);
 
+        System.out.println("\n Duck Simulator: With Observer");
+  /*      Quackologist quackologist=new Quackologist();
+        flockOfDucks.registerObserver(quackologist);
+        simulate(flockOfDucks);*/ //Observer pattern 실행이 잘 안됨..
+
         System.out.println("The ducks quacked "+QuackCounter.getQuacks()+" times");
     }
 
