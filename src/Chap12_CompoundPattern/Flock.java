@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class Flock implements Quackable {
     ArrayList quakers=new ArrayList();
-
+    Observable observable;
     public void add(Quackable quacker){
         quakers.add(quacker);
     }
@@ -16,5 +16,15 @@ public class Flock implements Quackable {
             Quackable quacker=(Quackable)iterator.next();
             quacker.quack();
         }
+    }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        observable.registerObserver(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        observable.notifyObservers();
     }
 }

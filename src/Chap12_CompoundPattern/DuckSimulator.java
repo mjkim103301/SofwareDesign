@@ -45,7 +45,7 @@ public class DuckSimulator {
 
         System.out.println("\n Duck Simulator: Mallard FLock Simulation");
         simulate(flockOfMallards);
-        
+
         System.out.println("The ducks quacked "+QuackCounter.getQuacks()+" times");
     }
 
