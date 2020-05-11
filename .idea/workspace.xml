@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap12_CompoundPattern/Goose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap12_CompoundPattern/GooseAdaptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap12_CompoundPattern/DuckCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap12_CompoundPattern/DuckCall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap12_CompoundPattern/MallardDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap12_CompoundPattern/MallardDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap12_CompoundPattern/RedheadDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap12_CompoundPattern/RedheadDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap12_CompoundPattern/RubberDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap12_CompoundPattern/RubberDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap12_CompoundPattern/DuckCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap12_CompoundPattern/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap12_CompoundPattern/QuackCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chap12_CompoundPattern/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap12_CompoundPattern/DuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap12_CompoundPattern/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap12_CompoundPattern/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap12_CompoundPattern/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap12_CompoundPattern/RedheadDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap12_CompoundPattern/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap12_CompoundPattern/RubberDuck.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
