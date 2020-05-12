@@ -24,5 +24,7 @@ public class StaffTestDrive {
 
         Waitress waitress=new Waitress(allStaff);
         waitress.printStaff();
+        waitress.printTitle();
+       // waitress.printWorkingYears();
     }
 }

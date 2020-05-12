@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Waitress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Waitress.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
