@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/GroupCompositeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/GumballMachine2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/GumballMachineTestDrive2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/StaffComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/StaffComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/StaffItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/StaffItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/StaffTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/StaffTestDrive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/Waitress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/Chap09_Iterator_Composite_Pattern/GroupApp/Waitress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/StaffTestDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Waitress.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,17 +33,18 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Chap06_CommandPattern" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Chap08_TemplateMethodPattern.Sort" />
       <recent name="Chap07_Adapter_Pacade_Pattern" />
       <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
       <recent name="Chap04_FactoryPattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chap10_StatePattern.Upgrade" />
+      <recent name="Chap06_CommandPattern" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -60,20 +59,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MenuTestDrive">
-    <configuration name="MyApplet" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.MyApplet" />
+  <component name="RunManager" selected="Application.GumballMachineTestDrive2">
+    <configuration name="GumballMachineTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap10_StatePattern.GumballMachineTestDrive" />
       <module name="SoftwareDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chap10_StatePattern.Upgrade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap12_CompoundPattern.DuckSimulator" />
+    <configuration name="GumballMachineTestDrive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap10_StatePattern.Upgrade.GumballMachineTestDrive2" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap12_CompoundPattern.*" />
+          <option name="PATTERN" value="Chap10_StatePattern.Upgrade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GumballMachineTestDrive2" />
+        <item itemvalue="Application.GumballMachineTestDrive" />
         <item itemvalue="Application.MenuTestDrive" />
         <item itemvalue="Application.MenuTestDrive (1)" />
         <item itemvalue="Application.StaffTestDrive" />
-        <item itemvalue="Application.DuckSimulator" />
-        <item itemvalue="Applet.MyApplet" />
       </list>
     </recent_temporary>
   </component>
