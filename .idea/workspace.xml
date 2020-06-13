@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/GumballMachine2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/GumballMachineTestDrive2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chap10_StatePattern/Upgrade/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
