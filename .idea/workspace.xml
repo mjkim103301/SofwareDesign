@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FinalProjectTetris/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProjectTetris/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProjectTetris/Ja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProjectTetris/TetrisDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineOnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOnCommand.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
