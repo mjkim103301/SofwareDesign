@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FinalProjectTetris/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProjectTetris/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProjectTetris/Ja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProjectTetris/TetrisDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineOnCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,18 +33,18 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Chap08_TemplateMethodPattern.Sort" />
-      <recent name="Chap07_Adapter_Pacade_Pattern" />
-      <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
-      <recent name="Chap04_FactoryPattern" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Chap10_StatePattern.Upgrade" />
       <recent name="Chap06_CommandPattern" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Chap08_TemplateMethodPattern.Sort" />
+      <recent name="Chap07_Adapter_Pacade_Pattern" />
+      <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
+      <recent name="Chap04_FactoryPattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -50,13 +59,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GumballMachineTestDrive2">
-    <configuration name="GumballMachineTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap10_StatePattern.GumballMachineTestDrive" />
+  <component name="RunManager" selected="Application.MenuTestDrive">
+    <configuration name="AppLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.WordProcessorApp.AppLoader" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap10_StatePattern.Upgrade.*" />
+          <option name="PATTERN" value="Chap06_CommandPattern.WordProcessorApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,25 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GumballMachineTestDrive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap10_StatePattern.Upgrade.GumballMachineTestDrive2" />
+    <configuration name="Ja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalProjectTetris.Ja" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap10_StatePattern.Upgrade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MenuTestDrive (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap09_Iterator_Composite_Pattern.Composite.MenuTestDrive" />
-      <module name="SoftwareDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chap09_Iterator_Composite_Pattern.Composite.*" />
+          <option name="PATTERN" value="FinalProjectTetris.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaffTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap09_Iterator_Composite_Pattern.GroupApp.StaffTestDrive" />
+    <configuration name="PizzaTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.FactoryMethodPattern.PizzaTestDrive" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap09_Iterator_Composite_Pattern.GroupApp.*" />
+          <option name="PATTERN" value="Chap04_FactoryPattern.FactoryMethodPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.UpgradeRemoteColtroler.RemoteLoader" />
+      <module name="SoftwareDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chap06_CommandPattern.UpgradeRemoteColtroler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GumballMachineTestDrive2" />
-        <item itemvalue="Application.GumballMachineTestDrive" />
         <item itemvalue="Application.MenuTestDrive" />
-        <item itemvalue="Application.MenuTestDrive (1)" />
-        <item itemvalue="Application.StaffTestDrive" />
+        <item itemvalue="Application.AppLoader" />
+        <item itemvalue="Application.RemoteLoader" />
+        <item itemvalue="Application.PizzaTestDrive" />
+        <item itemvalue="Application.Ja" />
       </list>
     </recent_temporary>
   </component>
