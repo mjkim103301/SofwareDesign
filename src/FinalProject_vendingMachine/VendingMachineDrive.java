@@ -5,6 +5,7 @@ import FinalProject_vendingMachine.CommandPattern.RemoteControl;
 import FinalProject_vendingMachine.CommandPattern.VMCommand;
 import FinalProject_vendingMachine.CommandPattern.VMOffCommand;
 import FinalProject_vendingMachine.CommandPattern.VMOnCommand;
+import FinalProject_vendingMachine.StatePattern.VMachine;
 
 import java.rmi.Remote;
 
@@ -24,6 +25,13 @@ public class VendingMachineDrive {
         //영업 시작
         remoteControl.onButtonWasPushed(0);
         remoteControl.onButtonWasPushed(1);
+
+        VMachine vMachine=new VMachine(10);
+        System.out.println(vMachine);
+
+        vMachine.insertQuarter(5000);
+        vMachine.chooseDrink();
+        vMachine.ejectQuarter();
         //영업 종료
         remoteControl.offButtonWasPushed(0);
         remoteControl.offButtonWasPushed(1);

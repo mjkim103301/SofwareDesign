@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/HasQuarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/NoQuarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/Sold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/SoldOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/VMState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/VMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,6 +208,11 @@
           <url>file://$PROJECT_DIR$/src/Chap09_Iterator_Composite_Pattern/GroupApp/Waitress.java</url>
           <line>43</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Chap02_ObserverPattern/ForecastDisplay.java</url>
