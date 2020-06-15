@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/RemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMOnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +38,7 @@
       <recent name="Chap06_CommandPattern" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="FinalProject_vendingMachine.CommandPattern" />
       <recent name="Chap08_TemplateMethodPattern.Sort" />
       <recent name="Chap07_Adapter_Pacade_Pattern" />
       <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
@@ -54,26 +57,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MenuTestDrive">
+  <component name="RunManager" selected="Application.VendingMachineDrive">
     <configuration name="AppLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.WordProcessorApp.AppLoader" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Chap06_CommandPattern.WordProcessorApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalProjectTetris.Ja" />
-      <module name="SoftwareDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FinalProjectTetris.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VendingMachineDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalProject_vendingMachine.VendingMachineDrive" />
+      <module name="SoftwareDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FinalProject_vendingMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VendingMachineDrive" />
         <item itemvalue="Application.MenuTestDrive" />
         <item itemvalue="Application.AppLoader" />
         <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.PizzaTestDrive" />
-        <item itemvalue="Application.Ja" />
       </list>
     </recent_temporary>
   </component>

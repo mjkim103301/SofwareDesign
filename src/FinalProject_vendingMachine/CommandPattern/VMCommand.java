@@ -3,7 +3,7 @@ package FinalProject_vendingMachine.CommandPattern;
 public class VMCommand {
     String vending_machine;
     int volume;
-    VMCommand(String VM){
+    public VMCommand(String VM){
         this.vending_machine=VM;
     }
     void on(){
