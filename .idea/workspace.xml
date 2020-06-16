@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMachineGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/TemplatePattern/DrinkPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/TemplatePattern/DrinkPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/TemplatePattern/DrinkPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/TemplatePattern/DrinkPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMachineGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMachineGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="66" />
+    <option name="myElementSize" value="84" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,7 +38,7 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../swingTest" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -225,7 +231,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SoftwareDesign$VendingMachineDrive.ic" NAME="VendingMachineDrive Coverage Results" MODIFIED="1592324514060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SoftwareDesign$VendingMachineDrive.ic" NAME="VendingMachineDrive Coverage Results" MODIFIED="1592326536662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>FinalProject_vendingMachine.*</FILTER>
     </SUITE>
   </component>

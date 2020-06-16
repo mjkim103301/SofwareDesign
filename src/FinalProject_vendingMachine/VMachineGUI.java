@@ -1,8 +1,10 @@
 package FinalProject_vendingMachine;
 
 import FinalProject_vendingMachine.TemplatePattern.DrinkPrice;
+import org.w3c.dom.Text;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,6 +13,7 @@ public class VMachineGUI {
 
     int count=0;
     String show="";
+    int row=0;
     public VMachineGUI(){
         JFrame frame1=new JFrame("수제 음료 자판기 관리");
         frame1.setBounds(0,0,500,500);
@@ -43,7 +46,7 @@ public class VMachineGUI {
         //---------------자판기 시작
 
         JFrame frame2=new JFrame("수제 음료 자판기");
-        frame2.setBounds(0,0,475,1000);
+        frame2.setBounds(0,0,1000,700);
         frame2.setBackground(Color.black);
 
 
@@ -77,12 +80,25 @@ public class VMachineGUI {
         Label label_drinks[]=new Label[drinks.length];
         ImageIcon icon[]=new ImageIcon[drinks.length];
 
-        final TextArea ta = new TextArea("", 0, 0, TextArea.SCROLLBARS_VERTICAL_ONLY);
-        ta.setText("  상품명      단가   수량      합계\n\n");
-        ta.setBackground(Color.white);
-        ta.setEditable(false);
-        ta.setFont(font1);
+        DefaultTableModel model=new DefaultTableModel();
+        JTable ta=new JTable(model);
 
+        model.addColumn("음료수명");
+        model.addColumn("가격");
+        model.addColumn("수량");
+        model.addColumn("합계");
+
+
+        ta.setBackground(Color.white);
+        JScrollPane scrollPane=new JScrollPane(ta);
+
+
+        TextArea ta2=new TextArea("주문 상태 나타내기", 0, 0, TextArea.SCROLLBARS_VERTICAL_ONLY);
+        ta2.setText("주문 조리 상태");
+        ta2.setBackground(Color.white);
+        ta2.setEditable(false);
+
+      //  scrollPane.add(ta2);
         //버튼 설정 부분
         for(int i=0;i<drinks.length;i++){
             btn_drinks[i] = new JButton(drinks[i].name);
@@ -143,13 +159,13 @@ public class VMachineGUI {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, ta.getText() + " 주문되었습니다. \n이용해주셔서 감사합니다.");
+                JOptionPane.showMessageDialog(null,  " 주문되었습니다. \n이용해주셔서 감사합니다.");
                 for (int i = 0; i < drinks.length; i++) {
                     btn_drinks[i].setEnabled(true);
                     minus[i].setEnabled(false);
                     plus[i].setEnabled(false);
                     txt_numDrinks[i].setText("0");
-                    ta.setText("   상품명        단가        수량        합계\n\n");
+                    //ta.setText("   상품명        단가        수량        합계\n\n");
 
                 }
             }
@@ -165,8 +181,10 @@ public class VMachineGUI {
                     minus[i].setEnabled(false);
                     plus[i].setEnabled(false);
                     txt_numDrinks[i].setText("0");
-                    ta.setText("   상품명        단가        수량        합계\n\n");
 
+                   model.setNumRows(0);
+                    ta2.setText("주문 조리 상태\n\n");
+                    row=0;
                 }
             }
         });
@@ -185,9 +203,9 @@ public class VMachineGUI {
 
         //frame2 컴포넌트
         frame2.add(product, BorderLayout.NORTH);
-        frame2.add(choice, BorderLayout.CENTER);
-        frame2.add(ta, BorderLayout.CENTER);
+        frame2.add(scrollPane, BorderLayout.CENTER);
         frame2.add(choice, BorderLayout.SOUTH);
+        frame2.add(ta2, BorderLayout.EAST);
         onButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -255,9 +273,11 @@ public class VMachineGUI {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     show = btn_drinks[j].getActionCommand();
-                    ta.append(" " + show + "    " + drinks[j].price + "   " + count + "     " + drinks[j].price * count
-                            + "원" + "\n");
+                    model.addRow(new Object[]{show, String.valueOf(drinks[j].price), String.valueOf(count), drinks[j].price * count + "원"});
+                    //contents[row++]= new String[]{show, String.valueOf(drinks[j].price), String.valueOf(count), drinks[j].price * count + "원"};
+                 //   ta.append(" " + show + "    " + drinks[j].price + "   " + count + "     " + drinks[j].price * count + "원" + "\n");
                     ok[j].setEnabled(false);
+
                 }
             });
         }
