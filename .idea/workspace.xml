@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/HasQuarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/NoQuarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/Sold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/SoldOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/VMState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/VMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/AppleJuiceDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CafeLatteCoffeeDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CaramelMacchiatoCoffeeDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CoffeeDrinkStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/DrinkStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/EspressoCoffeeDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/JuiceDrinkStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/StrawberryJuiceDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/WatermelonJuiceDrink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,19 +35,19 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="FinalProject_vendingMachine.FactoryMethodPattern" />
+      <recent name="FinalProject_vendingMachine.CommandPattern" />
+      <recent name="Chap08_TemplateMethodPattern.Sort" />
+      <recent name="Chap07_Adapter_Pacade_Pattern" />
+      <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Chap10_StatePattern.Upgrade" />
       <recent name="Chap06_CommandPattern" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="FinalProject_vendingMachine.CommandPattern" />
-      <recent name="Chap08_TemplateMethodPattern.Sort" />
-      <recent name="Chap07_Adapter_Pacade_Pattern" />
-      <recent name="Chap04_FactoryPattern.AbstractFactoryPattern" />
-      <recent name="Chap04_FactoryPattern" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\SoftwareDesign\src\Chap04_FactoryPattern\AbstractFactoryPattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,7 +214,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java</url>
-          <line>31</line>
+          <line>38</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

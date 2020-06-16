@@ -5,6 +5,10 @@ import FinalProject_vendingMachine.CommandPattern.RemoteControl;
 import FinalProject_vendingMachine.CommandPattern.VMCommand;
 import FinalProject_vendingMachine.CommandPattern.VMOffCommand;
 import FinalProject_vendingMachine.CommandPattern.VMOnCommand;
+import FinalProject_vendingMachine.FactoryMethodPattern.CoffeeDrinkStore;
+import FinalProject_vendingMachine.FactoryMethodPattern.Drink;
+import FinalProject_vendingMachine.FactoryMethodPattern.DrinkStore;
+import FinalProject_vendingMachine.FactoryMethodPattern.JuiceDrinkStore;
 import FinalProject_vendingMachine.StatePattern.VMachine;
 
 import java.rmi.Remote;
@@ -22,6 +26,9 @@ public class VendingMachineDrive {
 
         remoteControl.setCommand(0, N4VM_ON, N4VM_OFF);
         remoteControl.setCommand(1, N5VM_ON, N5VM_OFF);
+
+        DrinkStore coffeeStore=new CoffeeDrinkStore();
+        DrinkStore juiceStore=new JuiceDrinkStore();
         //영업 시작
         remoteControl.onButtonWasPushed(0);
         remoteControl.onButtonWasPushed(1);
@@ -31,6 +38,10 @@ public class VendingMachineDrive {
 
         vMachine.insertQuarter(5000);
         vMachine.chooseDrink();
+        Drink drink=coffeeStore.orderDrink("Espresso");
+        vMachine.releaseDrink();
+        System.out.println("Minji ordered a "+drink.getName()+"\n");
+
         vMachine.ejectQuarter();
         //영업 종료
         remoteControl.offButtonWasPushed(0);

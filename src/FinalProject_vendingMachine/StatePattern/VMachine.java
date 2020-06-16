@@ -35,7 +35,7 @@ public class VMachine {
     void setState(VMState vmState){
         this.vmState=vmState;
     }
-    void releaseDrink(){
+    public void releaseDrink(){
         System.out.println("음료수 출력");
         if(drinkCount!=0){
             drinkCount-=1;
