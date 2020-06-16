@@ -3,8 +3,8 @@ package FinalProject_vendingMachine.TemplatePattern;
 import FinalProject_vendingMachine.FactoryMethodPattern.Drink;
 
 public class DrinkPrice implements PriceComparable {
-    String name;
-    int price;
+   public  String name;
+    public int price;
 
     public DrinkPrice(String name, int price){
         this.name=name;

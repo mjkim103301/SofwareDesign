@@ -12,12 +12,18 @@ import FinalProject_vendingMachine.FactoryMethodPattern.JuiceDrinkStore;
 import FinalProject_vendingMachine.StatePattern.VMachine;
 import FinalProject_vendingMachine.TemplatePattern.DrinkPrice;
 
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.rmi.Remote;
 
 import static FinalProject_vendingMachine.TemplatePattern.PriceComparable.sort;
 
 public class VendingMachineDrive {
+
     public static void main(String[]args) {
+
         DrinkPrice[] drinks={
                 new DrinkPrice("카라멜 마끼야또", 5000),
                 new DrinkPrice("에스프레소", 3000),
@@ -58,6 +64,8 @@ public class VendingMachineDrive {
         //영업 종료
         remoteControl.offButtonWasPushed(0);
         remoteControl.offButtonWasPushed(1);
+        new VMachineGUI();
+
     }
     public static void display(DrinkPrice[] drinks){
         for(int i=0;i<drinks.length;i++){
