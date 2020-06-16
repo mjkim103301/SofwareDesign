@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/AppleJuiceDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CafeLatteCoffeeDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CaramelMacchiatoCoffeeDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CoffeeDrinkStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/DrinkStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/EspressoCoffeeDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/JuiceDrinkStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/StrawberryJuiceDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/WatermelonJuiceDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/TemplatePattern/DrinkPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/TemplatePattern/PriceComparable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/AppleJuiceDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/AppleJuiceDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/CafeLatteCoffeeDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/CafeLatteCoffeeDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/CaramelMacchiatoCoffeeDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/CaramelMacchiatoCoffeeDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/Drink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/Drink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/EspressoCoffeeDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/EspressoCoffeeDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/StrawberryJuiceDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/StrawberryJuiceDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/WatermelonJuiceDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/FactoryMethodPattern/WatermelonJuiceDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/AppleJuiceDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/AppleJuiceDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CafeLatteCoffeeDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CafeLatteCoffeeDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CaramelMacchiatoCoffeeDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/CaramelMacchiatoCoffeeDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/EspressoCoffeeDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/EspressoCoffeeDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/StrawberryJuiceDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/StrawberryJuiceDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/WatermelonJuiceDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/FactoryMethodPattern/WatermelonJuiceDrink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../coffeePOS-master" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="FinalProject_vendingMachine.FactoryMethodPattern" />
@@ -62,13 +72,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VendingMachineDrive">
+  <component name="RunManager" selected="Application.MenuTestDrive">
     <configuration name="AppLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.WordProcessorApp.AppLoader" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Chap06_CommandPattern.WordProcessorApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuckSortTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.Sort.DuckSortTestDrive" />
+      <module name="SoftwareDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chap08_TemplateMethodPattern.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap04_FactoryPattern.FactoryMethodPattern.PizzaTestDrive" />
+    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chap08_TemplateMethodPattern.MyFrame" />
       <module name="SoftwareDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chap04_FactoryPattern.FactoryMethodPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chap06_CommandPattern.UpgradeRemoteColtroler.RemoteLoader" />
-      <module name="SoftwareDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chap06_CommandPattern.UpgradeRemoteColtroler.*" />
+          <option name="PATTERN" value="Chap08_TemplateMethodPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VendingMachineDrive" />
         <item itemvalue="Application.MenuTestDrive" />
+        <item itemvalue="Application.VendingMachineDrive" />
+        <item itemvalue="Application.DuckSortTestDrive" />
+        <item itemvalue="Application.MyFrame" />
         <item itemvalue="Application.AppLoader" />
-        <item itemvalue="Application.RemoteLoader" />
-        <item itemvalue="Application.PizzaTestDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +224,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java</url>
-          <line>38</line>
+          <line>50</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

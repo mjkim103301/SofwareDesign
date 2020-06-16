@@ -5,10 +5,12 @@ import java.util.ArrayList;
 public abstract class Drink {
     String name;
     String ingredient;
+    int price;
     ArrayList additionalMaterial=new ArrayList();
 
     void prepare(){
         System.out.println("준비중인 음료: "+name);
+        System.out.println("가격(원): "+price);
         System.out.println("주 재료: "+ingredient);
         System.out.println("부가 재료들...");
         for(int i=0;i<additionalMaterial.size();i++){
@@ -24,4 +26,7 @@ public abstract class Drink {
     public String getName(){
         return name;
     }
+    public int getPrice(){return price;}
+
+
 }

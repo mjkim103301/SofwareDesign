@@ -10,11 +10,23 @@ import FinalProject_vendingMachine.FactoryMethodPattern.Drink;
 import FinalProject_vendingMachine.FactoryMethodPattern.DrinkStore;
 import FinalProject_vendingMachine.FactoryMethodPattern.JuiceDrinkStore;
 import FinalProject_vendingMachine.StatePattern.VMachine;
+import FinalProject_vendingMachine.TemplatePattern.DrinkPrice;
 
 import java.rmi.Remote;
 
+import static FinalProject_vendingMachine.TemplatePattern.PriceComparable.sort;
+
 public class VendingMachineDrive {
     public static void main(String[]args) {
+        DrinkPrice[] drinks={
+                new DrinkPrice("카라멜 마끼야또", 5000),
+                new DrinkPrice("에스프레소", 3000),
+                new DrinkPrice("카페라뗴", 4000),
+                new DrinkPrice("수박주스", 4500),
+                new DrinkPrice("딸기주스", 4500),
+                new DrinkPrice("사과주스", 4500)
+        };
+        sort(drinks);
         RemoteControl remoteControl=new RemoteControl();
         VMCommand N4VM = new VMCommand("N4동 자판기");
         VMCommand N5VM = new VMCommand("N5동 자판기");
@@ -35,7 +47,7 @@ public class VendingMachineDrive {
 
         VMachine vMachine=new VMachine(10);
         System.out.println(vMachine);
-
+        display(drinks);
         vMachine.insertQuarter(5000);
         vMachine.chooseDrink();
         Drink drink=coffeeStore.orderDrink("Espresso");
@@ -46,5 +58,10 @@ public class VendingMachineDrive {
         //영업 종료
         remoteControl.offButtonWasPushed(0);
         remoteControl.offButtonWasPushed(1);
+    }
+    public static void display(DrinkPrice[] drinks){
+        for(int i=0;i<drinks.length;i++){
+            System.out.println(drinks[i]);
+        }
     }
 }

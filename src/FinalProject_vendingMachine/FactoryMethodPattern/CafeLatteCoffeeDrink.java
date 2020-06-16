@@ -6,5 +6,6 @@ public class CafeLatteCoffeeDrink extends Drink {
         ingredient="주재료: 원두";
         additionalMaterial.add("우유");
         additionalMaterial.add("휘핑크림");
+        price=4000;
     }
 }

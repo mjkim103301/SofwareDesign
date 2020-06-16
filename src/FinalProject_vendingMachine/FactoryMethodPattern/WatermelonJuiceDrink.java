@@ -5,5 +5,6 @@ public class WatermelonJuiceDrink extends Drink {
         name="수박 주스 음료수";
         ingredient="주재료: 수박";
         additionalMaterial.add("얼음");
+        price=4500;
     }
 }
