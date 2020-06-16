@@ -1,5 +1,7 @@
 package FinalProject_vendingMachine;
 
+import FinalProject_vendingMachine.CommandPattern.VMCommand;
+import FinalProject_vendingMachine.StatePattern.VMachine;
 import FinalProject_vendingMachine.TemplatePattern.DrinkPrice;
 import org.w3c.dom.Text;
 
@@ -13,8 +15,10 @@ public class VMachineGUI {
 
     int count=0;
     String show="";
-    int row=0;
+
+
     public VMachineGUI(){
+
         JFrame frame1=new JFrame("수제 음료 자판기 관리");
         frame1.setBounds(0,0,500,500);
         frame1.setBackground(Color.CYAN);
@@ -34,7 +38,8 @@ public class VMachineGUI {
 
 
         TextArea textArea=new TextArea("자판기 상태", 0, 0, TextArea.SCROLLBARS_VERTICAL_ONLY);
-        textArea.setText("자판기 상태\n");
+        textArea.setText("자판기 상태\n\n");
+
         textArea.setBackground(Color.white);
         textArea.setEditable(false);
         textArea.setFont(font1);
@@ -64,21 +69,20 @@ public class VMachineGUI {
         //상품 배열
         DrinkPrice[] drinks={
                 new DrinkPrice("에스프레소", 3000),
-                new DrinkPrice("카페라뗴", 4000),
+                new DrinkPrice("카페라떼", 4000),
                 new DrinkPrice("카라멜 \n마끼야또", 5000),
 
                 new DrinkPrice("수박주스", 4500),
                 new DrinkPrice("딸기주스", 4500),
                 new DrinkPrice("사과주스", 4500)
         };
-
         JButton btn_drinks[]=new JButton[drinks.length];
         TextField txt_numDrinks[]=new TextField[drinks.length];
         Button minus[]=new Button[drinks.length];
         Button plus[]=new Button[drinks.length];
         JButton ok[]=new JButton[drinks.length];
         Label label_drinks[]=new Label[drinks.length];
-        ImageIcon icon[]=new ImageIcon[drinks.length];
+
 
         DefaultTableModel model=new DefaultTableModel();
         JTable ta=new JTable(model);
@@ -110,7 +114,7 @@ public class VMachineGUI {
 
 
             // 숫자 txt 버튼
-            txt_numDrinks[i] = new TextField("0");
+            txt_numDrinks[i] = new TextField("1");
             txt_numDrinks[i].setBackground(Color.white);
             txt_numDrinks[i].setEditable(false);
             txt_numDrinks[i].setBounds(btn_drinks[i].getX() + 30, btn_drinks[i].getY() + 130, 40, 20);
@@ -165,9 +169,10 @@ public class VMachineGUI {
                     minus[i].setEnabled(false);
                     plus[i].setEnabled(false);
                     txt_numDrinks[i].setText("0");
-                    //ta.setText("   상품명        단가        수량        합계\n\n");
-
                 }
+
+
+
             }
         });
 
@@ -184,7 +189,7 @@ public class VMachineGUI {
 
                    model.setNumRows(0);
                     ta2.setText("주문 조리 상태\n\n");
-                    row=0;
+
                 }
             }
         });
@@ -206,18 +211,28 @@ public class VMachineGUI {
         frame2.add(scrollPane, BorderLayout.CENTER);
         frame2.add(choice, BorderLayout.SOUTH);
         frame2.add(ta2, BorderLayout.EAST);
+
+        //on 버튼
         onButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 //frame2.pack();
+                for(int i=0;i< VMCommand.VMCommandAL_on.size();i++){
+                    textArea.append(VMCommand.VMCommandAL_on.get(i)+"\n");
+                }
+
                 frame2.setVisible(true);
 
             }
         });
+
+        //off버튼
         offButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+                for(int i=0;i< VMCommand.VMCommandAL_off.size();i++){
+                    textArea.append(VMCommand.VMCommandAL_off.get(i)+"\n");
+                }
             }
         });
 
@@ -243,7 +258,7 @@ public class VMachineGUI {
 
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    if (count > 0) {
+                    if (count > 1) {
                         count = count - 1;
                         txt_numDrinks[j].setText(count + "");
                         ok[j].setEnabled(true);

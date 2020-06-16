@@ -27,7 +27,7 @@ public class VendingMachineDrive {
         DrinkPrice[] drinks={
                 new DrinkPrice("카라멜 마끼야또", 5000),
                 new DrinkPrice("에스프레소", 3000),
-                new DrinkPrice("카페라뗴", 4000),
+                new DrinkPrice("카페라떼", 4000),
                 new DrinkPrice("수박주스", 4500),
                 new DrinkPrice("딸기주스", 4500),
                 new DrinkPrice("사과주스", 4500)
@@ -36,7 +36,6 @@ public class VendingMachineDrive {
         RemoteControl remoteControl=new RemoteControl();
         VMCommand N4VM = new VMCommand("N4동 자판기");
         VMCommand N5VM = new VMCommand("N5동 자판기");
-
         VMOnCommand N4VM_ON=new VMOnCommand(N4VM);
         VMOffCommand N4VM_OFF=new VMOffCommand(N4VM);
         VMOnCommand N5VM_ON=new VMOnCommand(N5VM);
