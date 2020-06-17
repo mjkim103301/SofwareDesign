@@ -59,7 +59,7 @@ public class VMachineGUI {
 
         //상품 진열 프레임
         Panel product=new Panel();
-        product.setBackground(new Color(255,255,215));
+     //   product.setBackground(new Color(255,255,215));
         product.setLayout(null);
         product.setSize(0,500);
         product.setFont(font);
@@ -98,7 +98,7 @@ public class VMachineGUI {
 
 
         TextArea ta2=new TextArea("주문 상태 나타내기", 0, 0, TextArea.SCROLLBARS_VERTICAL_ONLY);
-        ta2.setText("주문 조리 상태");
+        ta2.setText("주문 조리 상태 \n");
         ta2.setBackground(Color.white);
         ta2.setEditable(false);
 
@@ -171,9 +171,15 @@ public class VMachineGUI {
                     txt_numDrinks[i].setText("0");
                 }
 
+                ta2.append("준비중인 음료: 에스프레서 커피 음료수\n");
+                ta2.append("가격(원): 3000\n");
+                ta2.append("주 재료: 원두\n");
+                ta2.append("부가 재료들: 각설탕 3개 \n");
+                ta2.append("컵에 커피와 부가 재료를 따르기 \n");
+                ta2.append("주문이 완료됐습니다. \n");
 
 
-            }
+           }
         });
 
         // 초기화 버튼

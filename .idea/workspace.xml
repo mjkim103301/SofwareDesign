@@ -4,8 +4,6 @@
     <list default="true" id="b5a4554f-f780-4dc7-b570-cf0a1b6a1aaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/CommandPattern/VMCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/CommandPattern/VMCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/StatePattern/SoldOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/StatePattern/SoldOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/StatePattern/VMState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/StatePattern/VMState.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$3.class" afterDir="false" />
@@ -16,12 +14,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VMachineGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesign/FinalProject_vendingMachine/VendingMachineDrive.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/CommandPattern/VMCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/SoldOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/SoldOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/VMState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/StatePattern/VMState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMachineGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VMachineGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalProject_vendingMachine/VendingMachineDrive.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +40,8 @@
   </component>
   <component name="ProjectId" id="1ZepxBrIWkAupXazkXuCJ9v0Dht" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../swingTest" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
